@@ -1,0 +1,11 @@
+integer randNum
+randNum = RandomNumber(1, 100)
+
+if randNum % 15 == 0
+   Put "fizzbuzz" to output
+elseif randNum % 5 == 0
+   Put "buzz" to output
+elseif randNum % 3 == 0
+   Put "fizz" to output
+else
+   Put "Not divis by 3, 5, or 15." to output
